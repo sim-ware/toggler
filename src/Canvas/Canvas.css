@@ -1,0 +1,18 @@
+.Canvas {
+  width: 710px;
+  height: 365px;
+  border-radius: 8px;
+  /* background-image: linear-gradient(to bottom, rgba(250, 145, 97, 0.7), rgba(247, 59, 28, 0.69)); */
+  background-image: linear-gradient(to bottom, rgba(250, 145, 97, 0.7), rgba(247, 59, 28, 0.69));
+  background-image: linear-gradient(to bottom, var(--pastel-orange-70), rgba(247, 59, 28, 0.69));
+  box-shadow: 0 2px 12px 6px rgba(167, 196, 220, 0.5);
+  display: inline-block;
+  margin-top: 45px;
+}
+
+/* .Rectangle-5 {
+  width: 307px;
+  height: 45px;
+  border-radius: 100px;
+  border: solid 1px #fbfbfb;
+} */
