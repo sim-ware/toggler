@@ -10,7 +10,7 @@ class MegaToggle extends Component {
           <div className="Rectangle-5"><Toggle/></div>
           <div className="Rectangle-5"><Toggle/></div>
           <div className="Rectangle-5"><Toggle/></div>
-          Answer is Incorrect
+          <strong>Answer is:</strong> {"Incorrect"}
       </div>
     );
   }

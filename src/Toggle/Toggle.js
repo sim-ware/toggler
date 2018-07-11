@@ -13,6 +13,7 @@ const groupOptions = [
   },
 ];
 
+
 class Toggle extends Component {
   constructor(props) {
     super(props);
@@ -31,12 +32,10 @@ class Toggle extends Component {
       <span>
         <MultiToggle
         className='Retangle-5'
-          options={groupOptions}
+        options={groupOptions}
           selectedOption={groupSize}
           onSelectOption={this.onGroupSizeSelect}
-          label="Select Group Size"
         />
-        <strong>Selected group size:</strong> {groupSize}
       </span>
     );
   }
@@ -45,3 +44,6 @@ class Toggle extends Component {
 }
 
 export default Toggle;
+
+// <strong>Selected group size:</strong> {groupSize}
+// label="Select Group Size"
